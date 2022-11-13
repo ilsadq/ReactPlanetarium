@@ -1,0 +1,407 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 6332,
+      "max": [
+        2.354412078857422,
+        0.7324694395065308,
+        7.848354816436768
+      ],
+      "min": [
+        -2.354412078857422,
+        -1.4571709632873535,
+        -0.4397730231285095
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 75984,
+      "componentType": 5126,
+      "count": 6332,
+      "max": [
+        1.0,
+        1.0,
+        0.9798629879951477
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 6332,
+      "max": [
+        1.0,
+        0.9997920393943787,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -0.7611219882965088,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 6332,
+      "max": [
+        0.9205601215362549,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.1679476797580719
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 31212,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 151968,
+      "componentType": 5126,
+      "count": 48,
+      "max": [
+        0.22254329919815063,
+        2.942349672317505,
+        1.2480257749557495
+      ],
+      "min": [
+        -2.9162168502807617,
+        -1.0,
+        -0.7648875117301941
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 152544,
+      "componentType": 5126,
+      "count": 48,
+      "max": [
+        1.0,
+        1.0,
+        0.9341568946838379
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -0.9858884811401367
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 101312,
+      "componentType": 5126,
+      "count": 48,
+      "max": [
+        0.9919329285621643,
+        0.9301691055297852,
+        0.6728456616401672,
+        1.0
+      ],
+      "min": [
+        -2.9026320902403313e-08,
+        -0.9999703764915466,
+        -0.757020890712738,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 50656,
+      "componentType": 5126,
+      "count": 48,
+      "max": [
+        0.998478353023529,
+        0.47843894362449646
+      ],
+      "min": [
+        0.6392379999160767,
+        0.001521468162536621
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 124848,
+      "componentType": 5125,
+      "count": 72,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Northwodearts (https://sketchfab.com/Northwodearts)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/lockheed-crew-exploration-vehicle-559fb6e2b0b447f9a0472c975c445976",
+      "title": "Lockheed Crew Exploration Vehicle"
+    },
+    "generator": "Sketchfab-14.32.1",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 125136,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 51040,
+      "byteOffset": 125136,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 153120,
+      "byteOffset": 176176,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 102080,
+      "byteOffset": 329296,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 431376,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/material_baseColor.png"
+    },
+    {
+      "uri": "textures/material_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/material_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "material",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "NurbsCurve.008_CEV_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Cube_CEV_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        0.8832918405532837,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.9613018776915762e-16,
+        -0.8832918405532837,
+        0.0,
+        0.0,
+        0.8832918405532837,
+        1.9613018776915762e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "2175e2cc7aaa4d838e228c4e7b31ae39.fbx"
+    },
+    {
+      "children": [
+        3,
+        5
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        94.02072143554688,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        94.02072143554678,
+        4.10977592763971e-06,
+        0.0,
+        0.0,
+        -4.10977592763971e-06,
+        94.02072143554678,
+        0.0,
+        0.0,
+        49.419246673583984,
+        11.485220909118652,
+        1.0
+      ],
+      "name": "NurbsCurve.008"
+    },
+    {
+      "mesh": 0,
+      "name": "NurbsCurve.008_CEV_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        63.88643264770508,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -5.8597859448547545e-06,
+        -35.967109680175305,
+        0.0,
+        0.0,
+        4.724793910980162,
+        -7.697666339632864e-07,
+        0.0,
+        86.04460144042969,
+        -82.94100952148438,
+        -9.631858825683594,
+        1.0
+      ],
+      "name": "Cube"
+    },
+    {
+      "mesh": 1,
+      "name": "Cube_CEV_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

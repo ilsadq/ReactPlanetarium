@@ -1,0 +1,34 @@
+.app
+  @apply min-h-screen
+  @apply grid place-content-center
+
+.wrapper
+  @apply w-full h-screen
+  @apply grid grid-cols-4 md:grid-cols-8 xl:grid-cols-12 grid-cols-4 grid-rows-6
+
+.scene__wrapper
+  @apply col-start-1 col-end-9 xl:col-start-3 xl:col-end-11 row-start-1 row-end-6 xl:row-end-7
+
+.left-side
+  @apply col-start-1 col-end-3 row-start-1 row-end-7
+  @apply grid place-content-center
+
+.right-side
+  @apply col-start-11 col-end-13 row-start-1 row-end-7
+  @apply grid place-content-center
+
+.action-button
+  @apply w-12 h-12 grid place-content-center
+  @apply text-lg border-2 rounded-full
+  @apply hover:text-blue-400 hover:border-blue-400 transition-colors
+  @apply cursor-pointer
+  svg
+    @apply w-8
+
+.object-title
+  @apply col-start-3 col-end-8 row-start-2 row-end-2
+  @apply text-8xl font-bold z-10
+
+.object-content
+  @apply col-start-3 col-end-6 row-start-5 row-end-7
+  @apply text-2xl z-10 text-justify
